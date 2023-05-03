@@ -1,0 +1,7 @@
+D:\Desktop\Навчання\1 Курс(і хоч би не останній) 2 семестр\ПАЛМ\Лабораторна 5\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Desktop\Навчання\1 Курс(і хоч би не останній) 2 семестр\ПАЛМ\Лабораторна 5\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Desktop\Навчання\1 Курс(і хоч би не останній) 2 семестр\ПАЛМ\Лабораторна 5\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.AssemblyReference.cache
+D:\Desktop\Навчання\1 Курс(і хоч би не останній) 2 семестр\ПАЛМ\Лабораторна 5\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\Навчання\1 Курс(і хоч би не останній) 2 семестр\ПАЛМ\Лабораторна 5\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+D:\Desktop\Навчання\1 Курс(і хоч би не останній) 2 семестр\ПАЛМ\Лабораторна 5\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Desktop\Навчання\1 Курс(і хоч би не останній) 2 семестр\ПАЛМ\Лабораторна 5\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
