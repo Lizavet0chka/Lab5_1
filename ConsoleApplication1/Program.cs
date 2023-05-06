@@ -108,6 +108,7 @@ namespace ConsoleApplication1
             Console.WriteLine($"Результат ділення двох дробів: {Divide(res_1,res_2)}");
             Console.WriteLine($"{CalcSum1(6)}");
             Console.WriteLine($"{CalcSum2(8)}");
+            Console.ReadKey();
         }
     }
 }
