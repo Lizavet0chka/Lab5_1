@@ -9,13 +9,21 @@ namespace ConsoleApplication1
         {
             nom = nom_;
             denom = denom_;
-            if (denom<0)
+            if ((denom<0 && nom >= 0) || (denom<0 && nom < 0))
             {
                 denom *= -1;
                 nom *= -1;
             }
-            long a = nom;
-            long b = denom;
+            //else if (denom < 0&& nom>=0)
+            //{
+            //    denom *= -1;
+            //}
+            //else if(nom<0 && denom >=0)
+            //{
+            //    nom *= -1;
+            //}
+            long a = Math.Abs(nom);
+            long b = Math.Abs(denom);
             while (b != 0)
             {
                 long temp = b;
@@ -34,13 +42,9 @@ namespace ConsoleApplication1
         {
             var nom = f.nom;
             var denom = f.denom;
-            if (nom>denom)
+            if (Math.Abs(nom)>Math.Abs(denom))
             {
-                return $"{nom/denom} + {nom%denom}/{denom}";
-            }
-            else if(nom==denom)
-            {
-                return $"{nom / denom}";
+                return nom < 0 ? $"-({Math.Abs(nom/denom)} + {Math.Abs(nom%denom)}/{denom})": $"{nom/denom} + {nom%denom}/{denom}";
             }
             else
             {
@@ -93,8 +97,8 @@ namespace ConsoleApplication1
         }
         public static void Main(string[] args)
         { 
-            MyFrac res_1 = new MyFrac(34, 8);
-            MyFrac res_2 = new MyFrac(3, 4);
+            MyFrac res_1 = new MyFrac(-4, -18);
+            MyFrac res_2 = new MyFrac(4, 18);
             Console.WriteLine(res_1);
             Console.WriteLine(ToStringWithIntegerPart(res_1));
             Console.WriteLine($"Результат: {DoubleValue(res_1)}");
